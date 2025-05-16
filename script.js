@@ -37,7 +37,8 @@ const updateDOM = (data) => {
 };
 
 const fetchWeather = async (city) => {
-  const URL = `http://api.weatherapi.com/v1/current.json?key=53afdf3366614f1890b70037251605&q=${city}&aqi=no`;
+	
+  const URL = `https://api.weatherapi.com/v1/current.json?key=53afdf3366614f1890b70037251605&q=${city}&aqi=no`;
 
   const response = await fetch(URL);
 
