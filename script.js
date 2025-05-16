@@ -61,7 +61,5 @@ const updateData = () => {
 }	
 
 window.onload = () => {
-	setInterval(() => {
-		updateData();
-	}, 2000);
+	updateData();
 }
