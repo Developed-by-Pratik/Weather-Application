@@ -22,10 +22,8 @@ A lightweight and intuitive web application to get real-time weather updates for
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript, EJS (Templating)  
-- **Backend:** Node.js, Express.js  
-- **Database:** PostgreSQL (Optional, based on search results)  
-- **API:** OpenWeather API  
+- **Frontend:** HTML, CSS, JavaScript  
+- **API:** WeatherAPI.com  
 
 ---
 
@@ -35,10 +33,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### ✅ Prerequisites
 
-- Node.js installed on your machine.  
-- npm (Node package manager) or yarn.  
-- A PostgreSQL database instance running (if the application uses it for storing data).  
-- An API key from [OpenWeatherMap](https://openweathermap.org/).  
+- A browser to run the application.  
+- An API key from [WeatherAPI.com](https://www.weatherapi.com/).  
 
 ---
 
@@ -56,51 +52,27 @@ Follow these instructions to get a copy of the project up and running on your lo
    cd Weather-Application
    ```
 
-3. **Install dependencies:**  
+3. **Create a `config.js` file** in the root directory and add your API key:
 
-   ```bash
-   npm install
-   ```
-   Or using yarn:
-
-   ```bash
-   yarn install
+   ```javascript
+   const apiKey = 'YOUR_API_KEY';
    ```
 
-4. **Create a `.env` file** in the root directory and add your API key and potentially database credentials:
-
-   ```env
-   OPENWEATHER_API_KEY=YOUR_API_KEY
-
-   # If using PostgreSQL:
-   DB_USER=your_db_user
-   DB_HOST=your_db_host
-   DB_DATABASE=your_db_name
-   DB_PASSWORD=your_db_password
-   DB_PORT=your_db_port
-   ```
-
-   Replace `YOUR_API_KEY` and database details with your actual credentials.
+   Replace `YOUR_API_KEY` with your actual WeatherAPI.com key.
 
 ---
 
 ### 🚀 Running the Application
 
-1. **Start the server:**  
+1. **Open `index.html` in your browser:**  
 
-   ```bash
-   npm start
-   ```
-
-2. **Open your web browser** and visit:  
-   - [http://localhost:3000](http://localhost:3000) (or the port specified in your application).
+   - Right-click `index.html` and select **Open with Live Server** or open it directly in the browser.
 
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](./LICENSE) file for details.  
-(Note: You might need to create a `LICENSE` file if one doesn't exist in the repository).
 
 ---
 
