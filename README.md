@@ -4,7 +4,7 @@ A lightweight and intuitive web application to get real-time weather updates for
 
 ---
 
-## Live Link : 
+## Live Link : https://developed-by-pratik.github.io/Weather-Application/
 
 ## 📄 Description  
 
