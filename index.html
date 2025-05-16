@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Application </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Application</h1>
+      <div class="input-container">
+        <input type="text" id="city" placeholder="Enter city name" />
+        <button id="fetch-weather">Search</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="temperature">21.2 °C</div>
+        <div class="location-date">
+          <div id="location">Pune</div>
+          <div class="date">
+            <span id="time">05:08 PM</span>
+            <span id="Day">Friday</span>
+            <span id="Date">2024-05-16</span>
+          </div>
+        </div>
+        <div class="weather-condition">
+          <img src="//cdn.weatherapi.com/weather/64x64/day/176.png" />
+          <span id="condition">Patchy rain nearby</span>
+        </div>
+      </div>
+    </main>
+
+  <script src="script.js"></script>
+  </body>
+</html>
